@@ -18,8 +18,6 @@ class LaravelRemoteServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-remote')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-remote_table')
             ->hasCommand(LaravelRemoteCommand::class);
     }
 }
