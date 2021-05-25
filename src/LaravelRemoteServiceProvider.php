@@ -2,9 +2,9 @@
 
 namespace Hhhoegsted\LaravelRemote;
 
+use Hhhoegsted\LaravelRemote\Commands\LaravelRemoteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Hhhoegsted\LaravelRemote\Commands\LaravelRemoteCommand;
 
 class LaravelRemoteServiceProvider extends PackageServiceProvider
 {
