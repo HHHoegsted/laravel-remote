@@ -2,9 +2,9 @@
 
 namespace Hhhoegsted\LaravelRemote\Tests;
 
+use Hhhoegsted\LaravelRemote\LaravelRemoteServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Hhhoegsted\LaravelRemote\LaravelRemoteServiceProvider;
 
 class TestCase extends Orchestra
 {
